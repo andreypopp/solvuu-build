@@ -1,0 +1,6 @@
+FLG -w A-4-30-33-41-42-44-45-48
+SRC ./lib/**
+B ./_build/lib/**
+PKG findlib
+PKG ocamlbuild
+PKG ocamlgraph
