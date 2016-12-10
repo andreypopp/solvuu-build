@@ -1,7 +1,7 @@
 PROJECT=solvuu-build
 PACK=solvuu_build
 VERSION=0.1.0
-OCAMLBUILD=ocamlbuild -use-ocamlfind
+OCAMLBUILD=ocamlbuild -use-ocamlfind -no-hygiene
 DEMOS=$(sort $(dir $(wildcard demo/*/)))
 
 default: byte
