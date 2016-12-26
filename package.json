@@ -4,7 +4,7 @@
     },
     "version": "0.1.0",
     "dependencies": {
-        "ocamlfind": "andreypopp/ocamlfind",
+        "ocamlfind": "andreypopp/ocamlfind#esy",
         "ocamlgraph": "andreypopp/ocamlgraph#pjc",
         "opam-installer-bin": "andreypopp/opam-installer-bin"
     },
@@ -12,6 +12,6 @@
         "build": "make byte && make native && make _build/META && make solvuu-build.install && opam-installer --prefix=$cur__install"
     },
     "peerDependencies": {
-        "ocaml": "andreypopp/ocaml#trunk"
+        "ocaml": "andreypopp/ocaml#esy"
     }
 }
